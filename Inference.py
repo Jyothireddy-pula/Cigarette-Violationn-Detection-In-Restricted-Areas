@@ -153,7 +153,7 @@ def draw_hud(frame, total_persons, smoking_count, safe_count, frame_w, frame_h):
 
 
 def draw_person_box(frame, box, track_id, is_smoking, conf):
-    """Draw a standard rectangle box with class + confidence label."""
+    """Draw a standard rectangle box with ByteTrack ID + confidence label."""
     x1, y1, x2, y2 = [int(v) for v in box]
     color = C_RED if is_smoking else C_GREEN
     thick = 2
@@ -161,8 +161,8 @@ def draw_person_box(frame, box, track_id, is_smoking, conf):
     # Plain rectangle
     cv2.rectangle(frame, (x1, y1), (x2, y2), color, thick)
 
-    # Label: class + confidence
-    label = f"person {conf:.2f}"
+    # Label: ByteTrack ID + confidence  (e.g. "#3 person 0.87")
+    label = f"#{track_id} person {conf:.2f}"
     (tw, th), _ = cv2.getTextSize(label, FONT_SM, 0.50, 1)
     ly1 = max(0, y1 - th - 4)
     cv2.rectangle(frame, (x1, ly1), (x1 + tw + 6, y1), color, -1)

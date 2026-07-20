@@ -103,17 +103,24 @@ Place the downloaded `best.pt` file in the root of the project directory before 
 
 ## 📸 Detection Screenshots
 
-> *(Screenshots of the inference output will be added here)*
+<img width="1821" height="910" alt="image" src="https://github.com/user-attachments/assets/4e5ccffb-27d7-4006-9de3-034745f9ad7c" />
 
-<!-- Add your screenshots below -->
+<br/>
 
-| Description | Screenshot |
-|-------------|------------|
-| Person Detected (Safe) | *(coming soon)* |
-| Smoker Flagged (Violation) | *(coming soon)* |
-| Multi-person Frame | *(coming soon)* |
+<br/>
 
----
+
+<img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/b350e628-a539-4c65-b4d7-5966366a7d99" />
+
+<br/>
+
+<br/>
+
+
+
+<img width="1888" height="912" alt="image" src="https://github.com/user-attachments/assets/6414c9bc-f918-4aa1-b65b-05512404bb4a" />
+
+
 
 ## ⚙️ Requirements
 

@@ -231,9 +231,4 @@ All parameters are adjustable in `Inference.py`:
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
 
-## 👤 Author
-
-**Aditya**
-- GitHub: [@ADITYA-user18](https://github.com/ADITYA-user18)
